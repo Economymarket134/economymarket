@@ -764,10 +764,10 @@ a.icon {
     --color-text-light: #ffffff;
     --color-text-dark: #858585;
     --color-text-extra-dark: #6d6d6d;
-    --slide-card-count: 5;
-    --slide-scroll-duration: 12s;
-    --slide-height: 160px;
-    --slide-width: 400px;
+    --slide-card-count: 14;
+    --slide-scroll-duration: 42s;
+    --slide-height: 125px;
+    --slide-width: 340px;
 }
 
 ::-webkit-scrollbar {
@@ -900,6 +900,13 @@ a.icon {
     border-radius: 15px;
     background: var(--color-background);
     transition: 0.3s;
+    user-select: none;
+    cursor: pointer;
+}
+
+.testimonials .slide-card .avatar i img {
+    user-select: none;
+    pointer-events: none;
 }
 
 .testimonials .slide-card:hover {
@@ -910,7 +917,7 @@ a.icon {
 
 .testimonials .slide-card .top {
     width: 100%;
-    height: 55%;
+    height: 75%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -925,20 +932,20 @@ a.icon {
 .testimonials .slide-card .top .left .information {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .testimonials .slide-card .top .left .information .name p {
     color: var(--color-primary);
     font-weight: 700;
-    font-size: 20px;
-    margin-top: -6px;
+    font-size: 14px;
+    margin-top: -2px;
 }
 
 .testimonials .slide-card .top .left .information .referral p {
     color: var(--color-text-dark);
-    font-size: 14px;
-    margin-top: -20px;
+    font-size: 12px;
+    margin-top: -17px;
     
 }
 
@@ -953,26 +960,26 @@ a.icon {
 
 .testimonials .slide-card .review {
     width: 100%;
-    height: 45%;
+    height: 25%;
     display: flex;
 }
 
 .testimonials .slide-card .review p {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     color: var(--color-text-extra-dark);
 }
 
 .testimonialsavatar-icon {
     border-radius: 50%;
-    width: 40px;
+    width: 38px;
     height: auto;
 }
 
 .reviewstar-icon {
-    width: 20px;
+    width: 15px;
     height: auto;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--color-primary);
     text-shadow: 0 0 7px var(--color-primary);
 }
