@@ -770,26 +770,6 @@ a.icon {
     --slide-width: 400px;
 }
 
-::-webkit-scrollbar {
-    width: 12px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--color-dark);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--color-primary);
-    -webkit-border-radius: 50px;
-    -webkit-box-shadow: 0 2px 5px var(--color-background);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--color-primary);
-}
-
-
-
 .testimonials {
     padding-top: 60px;
     color: var(--color-text-light);
